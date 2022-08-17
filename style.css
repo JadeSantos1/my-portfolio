@@ -1,0 +1,10 @@
+.container-fluid{
+    padding: 0;
+    
+}
+.bg-lightblue{
+    background-color:lightblue;
+}
+.jumbotron-parent{
+    display: none;
+}

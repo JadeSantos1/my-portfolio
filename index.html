@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My resume</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>  
+    <div class="container-fluid">
+      <div class="col-sm-3 bg-lightblue">
+        <div class="personal">
+            <img src="56990153_2229337083789044_7652633626906984448_n.jpg" alt="picture" id="my-pic" width="100%"> 
+            <h1>Jade Dammam Santos</h1> 
+          <!-- <div style="height: 1450px"></div> -->
+        </div>       
+      </div>
+      <div class="col-sm-9" style="background-color:pink;">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">&nbsp;&nbsp;&nbsp;My Resume</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active" onclick="switchMenu('objective')" id="nav-objective"><a href="#">Objective</a></li>
+                <li class="" onclick="switchMenu('educational-background')" id="nav-educational-background"><a href="#">Educational Background</a></li>
+                <li class="" onclick="switchMenu('technical-skills')" id="nav-technical-skills"><a href="#">Technical Skills</a></li>
+                <li class="" onclick="switchMenu('work-experience')" id="nav-work-experience"><a href="#">Work Experience</a></li>
+              </ul>              
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="https://github.com/JadeSantos1" target="_blank"><i class="fa fa-github"></i> Github</a></li>
+                    <li><a href="mailto: jadedammam01@gmail.com"><i class="glyphicon glyphicon-envelope"></i> jadedammam01@gmail.com</a></li>
+                    <li><a href="tel:09505063339"><i class="glyphicon glyphicon-phone"></i> 09505063339</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+        <div class="objective jumbotron-parent" id="objective">
+          <div class="jumbotron">
+            <h1><i class="fas fa-address-card"></i> Objective</h1>
+            <p>I'm seeking for an On-The-Job Training to develop my skills and knowledge, acquire new technical skills to explore my career options in IT sector which provides an opportunity to expand my knowledge.</p>
+          </div>
+        </div>
+        <div class="educational-background jumbotron-parent" id="educational-background">
+          <div class="jumbotron">
+            <h1><i class="fas fa-graduation-cap"></i> Educational Background</h1>
+              <h3>COLLEGE - Bachelor of Science in Information Technology</h3>
+                <dl>
+                    <dt>ICCT COLLEGES - OWWA scholar </dt>
+                      <dd>August 2019 - Present</dd>
+                  <h3>SENIOR HIGHSCHOOL</h3>
+                    <dt>PBTS Academy - OWWA Scholar</dt>
+                      <dd>June 2017 - April 2019</dd>
+                  <h3>HIGHSCHOOL</h3>
+                    <dt> PBTS Academy </dt>
+                      <dd>June 2013 - April 2017</dd>
+                  <h3>ELEMENTARY SCHOOL</h3>
+                    <dt>PBTS Academy</dt>
+                      <dd>June 2007 - April 2013</dd>
+                </dl>                
+          </div>
+        </div>
+        <div class="technical-skills jumbotron-parent" id="technical-skills">
+          <div class="jumbotron">
+            <h1><i class="glyphicon glyphicon-cog"></i> Technical Skills</h1>
+            <h3>Programming Language</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JAVASCRIPT</li>
+            </ul>
+            <h3>Software</h3>
+            <ul>
+              <li>Word</li>
+              <li>Excel</li>
+              <li>Powerpoint</li>
+              <li>Visual Studio Code</li>
+              <li>Teamviewer</li>
+            </ul>
+            <h3>Troubleshooting</h3>
+            <ul>
+              <li>Pc Troubleshooting</li>
+              <li>Printer Troubleshooting</li>
+            </ul>
+          </div>
+        </div>
+        <div class="work-experience jumbotron-parent" id="work-experience">
+          <div class="jumbotron">
+              <h1><i class="fas fa-briefcase"></i> Work Experience</h1>
+                    <ul>
+                      <h3>PHOTOBOOTH OPERATOR </h3>
+                        <dt>FOCAL IMAGE</dt>
+                          <dd>Jan 2022- June 2022</dd>
+                      <h4>JOB RESPONSIBILITIES</h4>
+                    </ul>
+                      <ul>
+                        <li> Help guests at special events (weddings and the like) use the photo booth. </li>
+                        <li> Deliver and set up, remove our photo booths with another individual. </li>
+                        <li> Keeping the props and tools organized. </li>
+                        <li> Cutting and distributing strips. </li>
+                      </ul>
+          </div>    
+        </div>
+      </div>
+    </div>
+    <script src="script/script.js"></script>
+  </body>
+</html>
